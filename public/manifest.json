@@ -1,0 +1,8 @@
+{
+  "short_name": "Study App",
+  "name": "Let's study",
+  "start_url": "study",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

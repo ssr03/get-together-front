@@ -1,0 +1,133 @@
+.hash {
+  color: #2d30bd !important;
+  font-size: 16px;
+  line-height: 1.4em;
+  letter-spacing: -0.05em;
+}
+.hash:hover {
+  color: #286994 !important;
+}
+
+input.dropdown-place {
+  border:none;
+  border-bottom: 1px solid #999;
+  padding-bottom: 2px;
+  margin-top: 3px;
+}
+
+.link-a {
+  color: black;
+  text-decoration: none !important;
+}
+
+.link-a:hover {
+  color: gray;
+}
+
+.sticky-ontheside {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10;
+  top: var(--space-4);
+  width: 20%;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  width: 100%;
+}
+
+.map-image {
+  position: relative;
+  width: auto;
+  height: 270px;
+}
+.searchmap {
+  position: relative;
+  height: 200px;
+  padding: 3px;
+  border: 1px solid darkgray;
+}
+
+.comment {
+  background-color: #f8f9fa;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  /* border:1px solid darkgray;  */
+  /* margin-bottom: 15px;  */
+}
+.list,
+.list--reset,
+ul {
+  list-style: none;
+  list-style-position: initial;
+  list-style-image: initial;
+  list-style-type: none;
+  padding-left: 0;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.write-form {
+  border: 2px solid darkgray;
+  border-radius: 2%;
+}
+.member-form {
+  display: inline-block;
+  border: 2px solid rgb(224, 224, 224);
+  border-radius: 15px;
+  margin-top: 2px;
+  padding: 3%;
+  padding-left: 10%;
+  list-style-type: disc;
+}
+.img_preview {
+  /* border: 1px solid darkgray; */
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 250px;
+  margin-top: 16px;
+  background: #eee url(/plus.png) no-repeat 50%;
+}
+.img_preview span img {
+  display: inline-block;
+  resize: both;
+  width: auto;
+  max-height: 250px;
+  margin: 1px;
+  text-align: center;
+}
+span img {
+  display: block;
+  max-width: 100% !important;
+}
+#address {
+  width: 80%;
+}
+
+.thumnail {
+  position: relative;
+  display: block;
+  margin: auto;
+  max-width: 300px;
+  height: auto;
+  text-align: center;
+}
+.thumnail img {
+  text-align: center;
+  width: 95%;
+}
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.detail{
+  background-color:white!important;
+}

@@ -1,0 +1,24 @@
+.note_header{
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.note_contents{
+    height: auto; 
+}
+
+.fix_area{
+    position: relative;
+    z-index: 20;
+    border-bottom: 1px solid #e4e5e7;
+    overflow: hidden;
+}
+
+.task_btn{
+    display: block;
+    position: relative;
+    float: left;
+    white-space: nowrap;
+    padding-left: 4px;
+}
